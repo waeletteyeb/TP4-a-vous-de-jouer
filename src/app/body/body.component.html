@@ -1,0 +1,47 @@
+<div style="width:1000px;margin-left: auto;margin-right: auto;">
+    <aside id="leftmenu">
+        <img src="../../assets/images/logo.png" />
+        <header>
+            <h4 style="text-align: center;">Explorez nos cakes</h4>
+        </header>
+        <input type="search" class="searchbox" placeholder="Search our store" />
+        <ul>
+             <li><a routerLink="/tousdetails">Tous</a></li>
+            <li><a routerLink="/cheesecakes">Cheese cakes</a></li>
+            <li><a routerLink="/pies">Tartes</a></li>
+            <li><a  routerLink="/promotions">Promotions</a>
+            </li>
+        </ul>
+    </aside>
+
+    <figure>
+        <img src="../../assets/images/products/cakes.jpg" width="600" alt="La vitrine de notre boutique" />
+        <figcaption>Vitrine de la boutique Cake's shop</figcaption>
+                  </figure>
+
+        <article>
+
+            <header>
+                <h1 style="font-size:35px;color:#a593c2">Bienvenue à notre boutique !</h1>
+            </header>
+            <h2>Notre histoire</h2>
+            <p>
+                   Pendant de nombreuses années, Cake Shop a préparé les gâteaux les plus délicieux chez eux en Tunisie.
+    En 2013, nous avons ouvert notre première boutique dans une petite rue charmante au cœur de Tunis.
+    Les gens du monde entier sont tombés amoureux de nos moelleux gâteaux, nos cheesecakes divins et nos tartes aux
+    pommes épicées...
+    La boutique a rapidement connu un grand succès.
+
+    En 2015, pas moins de 100 gâteaux étaient vendus chaque jour, et Cake Shop a déménagé dans un espace plus grand
+    pour répondre à la demande croissante.
+    Suite à de nombreuses demandes, il est devenu évident que la prochaine étape était de permettre à chacun de
+    commander nos gâteaux depuis chez eux, et ce, de n'importe où dans le monde.
+    Vous découvrez maintenant le résultat de ce projet : notre propre boutique en ligne, vous permettant de
+    commander les délicieux gâteaux de Cake Shop à tout moment !
+</p>
+<hr>
+</article>
+</div>
+<button id="btn" (click)="save()">{{ liked ? '♥' : '♡' }}</button>
+<div id="favorite">{{ message }}</div>
+<span id="favorite"></span>
